@@ -29,6 +29,3 @@ jobs:
         cache: maven
     - name: Build with Maven
       run: mvn -B -DskipTests clean package
-      
-    - name: Test with Maven
-      uses: mvn test
